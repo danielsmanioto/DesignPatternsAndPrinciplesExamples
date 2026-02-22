@@ -1,0 +1,27 @@
+package com.interpreter;
+
+import java.util.Map;
+
+/**
+ * Expressão Não-Terminal: subtração
+ */
+public final class Subtract implements Expression {
+    
+    private final Expression left;
+    private final Expression right;
+    
+    public Subtract(Expression left, Expression right) {
+        this.left = left;
+        this.right = right;
+    }
+    
+    @Override
+    public double interpret(Map<String, Double> variables) {
+        return left.interpret(variables) - right.interpret(variables);
+    }
+    
+    @Override
+    public String toString() {
+        return "(" + left + " - " + right + ")";
+    }
+}

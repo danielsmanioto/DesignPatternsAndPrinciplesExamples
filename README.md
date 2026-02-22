@@ -33,8 +33,10 @@ Este repositório contém implementações de padrões de projeto clássicos (Ga
 |--------|-----------|-------|
 | **Adapter** | Converter a interface de uma classe em outra esperada pelos clientes | [`Adapter/`](Adapter/) |
 | **Bridge** | Desacoplar uma abstração de sua implementação | [`Bridge/`](Bridge/) |
+| **Composite** | Compor objetos em estruturas de árvore para representar hierarquias | [`Composite/`](Composite/) |
 | **Decorator** | Adicionar responsabilidades a um objeto dinamicamente | [`Decorator/`](Decorator/) |
 | **Facade** | Fornecer uma interface unificada para um conjunto de interfaces | [`Facade/`](Facade/) |
+| **Flyweight** | Usar compartilhamento para oferecer suporte a grandes quantidades de objetos pequenos | [`Flyweight/`](Flyweight/) |
 | **Proxy** | Fornecer um substituto ou marcador para controlar acesso a outro objeto | [`Proxy/`](Proxy/) |
 
 ### 🎯 Padrões Comportamentais
@@ -46,8 +48,12 @@ Este repositório contém implementações de padrões de projeto clássicos (Ga
 | **State** | Permitir que um objeto altere seu comportamento quando seu estado muda | [`State/`](State/) |
 | **Strategy** | Definir uma família de algoritmos e deixá-los intercambiáveis | [`Strategy/`](Strategy/) |
 | **Chain of Responsibility** | Passar um pedido ao longo de uma cadeia de objetos | [`ChainOfRepository/`](ChainOfRepository/) |
+| **Interpreter** | Definir uma representação de uma linguagem e um interpretador | [`Interpreter/`](Interpreter/) |
+| **Iterator** | Acessar elementos de uma coleção sequencialmente sem expor sua representação | [`Iterator/`](Iterator/) |
+| **Mediator** | Definir um objeto que encapsule a forma como um conjunto de objetos interage | [`Mediator/`](Mediator/) |
 | **Memento** | Capturar e externalizar o estado interno de um objeto | [`Memento/`](Memento/) |
 | **Template Method** | Definir o esqueleto de um algoritmo em uma classe base | [`TemplatMethod/`](TemplatMethod/) |
+| **Visitor** | Representar uma operação a ser realizada nos elementos de uma estrutura | [`Visitor/`](Visitor/) |
 
 ### 💎 Princípios SOLID
 
@@ -115,10 +121,15 @@ DesignPatternsAndPrinciplesExamples/
 ├── Builder/                  # Padrão Builder
 ├── ChainOfRepository/        # Padrão Chain of Responsibility
 ├── Command/                  # Padrão Command
+├── Composite/                # Padrão Composite
 ├── Decorator/                # Padrão Decorator
 ├── Facade/                   # Padrão Facade
 ├── Factory/                  # Padrão Factory
 ├── FactoryMethod/            # Padrão Factory Method
+├── Flyweight/                # Padrão Flyweight
+├── Interpreter/              # Padrão Interpreter
+├── Iterator/                 # Padrão Iterator
+├── Mediator/                 # Padrão Mediator
 ├── Memento/                  # Padrão Memento
 ├── NullObject/               # Padrão Null Object
 ├── Observer/                 # Padrão Observer
@@ -129,7 +140,7 @@ DesignPatternsAndPrinciplesExamples/
 ├── State/                    # Padrão State
 ├── Strategy/                 # Padrão Strategy
 ├── TemplatMethod/            # Padrão Template Method
-└── prototype/                # Padrão Prototype
+└── Visitor/                  # Padrão Visitor
 ```
 
 ### Características de Cada Projeto
